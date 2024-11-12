@@ -9,7 +9,14 @@
       <Release/>
     </Buttons>
     <Selection>
-      <StripableView id="64"/>
+      <MIDINotes region-id="3758">
+        <note note-id="68157"/>
+        <note note-id="68154"/>
+        <note note-id="68158"/>
+        <note note-id="68162"/>
+        <note note-id="68161"/>
+        <note note-id="68153"/>
+      </MIDINotes>
     </Selection>
     <RegionList/>
     <EditorLocations clock-mode="BBT"/>
