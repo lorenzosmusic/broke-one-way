@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="broke-one-way" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="16885" name-counter="1" event-counter="130581" vca-counter="1">
+<Session version="6000" name="broke-one-way" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="20924" name-counter="1" event-counter="133019" vca-counter="1">
   <ProgramVersion created-with="Ardour 6.9.0~ds0-1build1" modified-with="Ardour 6.9.0~ds0-1build1"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
@@ -188,9 +188,7 @@
     <Region name="band 6-1.51" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3293661" length="24448" position="711832" beat="30.937520786092218" sync-position="3293661" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="21" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="12265" type="audio" first-edit="nothing" source-0="4850" master-source-0="4850" channels="1"/>
     <Region name="Yoshimi-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1495553" length="552209" position="184070" beat="8.0000188964474681" sync-position="1495553" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" tags="" contents="0" start-beats="64.999469009826157" length-beats="24.000013227513225" id="12470" type="midi" first-edit="nothing" source-0="3756" master-source-0="3756"/>
   </Regions>
-  <Selection>
-    <StripableAutomationControl stripable="4803" control="0" order="9"/>
-  </Selection>
+  <Selection/>
   <Locations>
     <Location id="260" name="session" start="161061" end="8098991" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1731218266"/>
     <Location id="4883" name="band tracking" start="8743304" end="8743304" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1731559958"/>
@@ -5398,6 +5396,8 @@ I also liked analog brass 2 in the brass bank</Comment>
       <Window name="RPM-4803" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-64-410" visible="0" x-off="0" y-off="337" x-size="818" y-size="386" custom-ui="1"/>
       <Window name="PM-64-410" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-4803-12794" visible="0" x-off="396" y-off="44" x-size="818" y-size="386" custom-ui="1"/>
+      <Window name="PM-4803-12794" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-12678-12770" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-12678-12770" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-185-1333" visible="0" x-off="1151" y-off="0" x-size="769" y-size="455" custom-ui="1"/>
@@ -5414,8 +5414,6 @@ I also liked analog brass 2 in the brass bank</Comment>
       <Window name="PM-467-540" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-4752-5114" visible="0" x-off="370" y-off="0" x-size="769" y-size="455" custom-ui="1"/>
       <Window name="PM-4752-5114" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-4803-12794" visible="0" x-off="396" y-off="44" x-size="818" y-size="386" custom-ui="1"/>
-      <Window name="PM-4803-12794" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 64" height="66" visible="1"/>
         <Object id="automation 68" height="66" visible="0"/>
