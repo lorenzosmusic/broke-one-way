@@ -420,24 +420,6 @@
       <Changes>
         <start from="a0" to="a1178045216"/>
         <length from="a4712140800@a32985266048" to="a3534095584@a34163311264"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="25440" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1
-a4712140800 1
-a4712140800 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="25439" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001000000001
-a3534092800 1
-a3534092800 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="49" type-name="SelectionMemento">
