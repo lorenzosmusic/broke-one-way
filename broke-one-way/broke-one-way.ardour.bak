@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" name="broke-one-way" sample-rate="44100" session-range-is-free="0" id-counter="37102" rg-counter="76" name-counter="1" event-counter="236055" vca-counter="1">
+<Session version="7003" name="broke-one-way" sample-rate="44100" session-range-is-free="0" id-counter="43275" rg-counter="80" name-counter="1" event-counter="244735" vca-counter="1">
   <ProgramVersion created-with="Ardour 6.9.0~ds0-1build1" modified-with="Ardour 8.4.0~ds1-2ubuntu8"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -10,7 +10,6 @@
     <Port name="Scene in" type="midi" direction="Input"/>
     <Port name="Scene out" type="midi" direction="Output"/>
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
-      <Connection other="TRUMPET Yoshimi/midi_in 1"/>
       <Connection other="TRUMPET Yoshimi/midi_in 1"/>
     </Port>
   </MIDIPorts>
@@ -408,12 +407,6 @@
           <Connection other="drums 6/audio_out 1"/>
           <Connection other="one-way-beat/audio_out 1"/>
           <Connection other="reverb reflect Bus/audio_out 1"/>
-          <Connection other="drums 1/audio_out 1"/>
-          <Connection other="drums 2/audio_out 1"/>
-          <Connection other="drums 3/audio_out 1"/>
-          <Connection other="drums 4/audio_out 1"/>
-          <Connection other="drums 5/audio_out 1"/>
-          <Connection other="drums 6/audio_out 1"/>
         </Port>
         <Port name="Master/audio_in 2" type="audio" direction="Input">
           <Connection other="Rob guitar/audio_out 2"/>
@@ -432,12 +425,6 @@
           <Connection other="drums 6/audio_out 2"/>
           <Connection other="one-way-beat/audio_out 2"/>
           <Connection other="reverb reflect Bus/audio_out 2"/>
-          <Connection other="drums 1/audio_out 2"/>
-          <Connection other="drums 2/audio_out 2"/>
-          <Connection other="drums 3/audio_out 2"/>
-          <Connection other="drums 4/audio_out 2"/>
-          <Connection other="drums 5/audio_out 2"/>
-          <Connection other="drums 6/audio_out 2"/>
         </Port>
       </IO>
       <IO name="Master" id="93" direction="Output" default-type="audio">
@@ -580,8 +567,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
-      <Controllable name="mute" id="195" flags="Toggle,RealTime" value="1"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="195" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="197" flags="Toggle" value="0" phase-invert="00"/>
       <Automation>
         <AutomationList automation-id="solo" id="192" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
@@ -2051,10 +2038,8 @@ I also liked analog brass 2 in the brass bank</Comment>
       <IO name="drums 1" id="35595" direction="Output" default-type="audio">
         <Port name="drums 1/audio_out 1" type="audio" direction="Output">
           <Connection other="Master/audio_in 1"/>
-          <Connection other="Master/audio_in 1"/>
         </Port>
         <Port name="drums 1/audio_out 2" type="audio" direction="Output">
-          <Connection other="Master/audio_in 2"/>
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
@@ -2143,10 +2128,8 @@ I also liked analog brass 2 in the brass bank</Comment>
       <IO name="drums 2" id="35663" direction="Output" default-type="audio">
         <Port name="drums 2/audio_out 1" type="audio" direction="Output">
           <Connection other="Master/audio_in 1"/>
-          <Connection other="Master/audio_in 1"/>
         </Port>
         <Port name="drums 2/audio_out 2" type="audio" direction="Output">
-          <Connection other="Master/audio_in 2"/>
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
@@ -2235,10 +2218,8 @@ I also liked analog brass 2 in the brass bank</Comment>
       <IO name="drums 3" id="35731" direction="Output" default-type="audio">
         <Port name="drums 3/audio_out 1" type="audio" direction="Output">
           <Connection other="Master/audio_in 1"/>
-          <Connection other="Master/audio_in 1"/>
         </Port>
         <Port name="drums 3/audio_out 2" type="audio" direction="Output">
-          <Connection other="Master/audio_in 2"/>
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
@@ -2327,10 +2308,8 @@ I also liked analog brass 2 in the brass bank</Comment>
       <IO name="drums 4" id="35799" direction="Output" default-type="audio">
         <Port name="drums 4/audio_out 1" type="audio" direction="Output">
           <Connection other="Master/audio_in 1"/>
-          <Connection other="Master/audio_in 1"/>
         </Port>
         <Port name="drums 4/audio_out 2" type="audio" direction="Output">
-          <Connection other="Master/audio_in 2"/>
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
@@ -2419,10 +2398,8 @@ I also liked analog brass 2 in the brass bank</Comment>
       <IO name="drums 5" id="35867" direction="Output" default-type="audio">
         <Port name="drums 5/audio_out 1" type="audio" direction="Output">
           <Connection other="Master/audio_in 1"/>
-          <Connection other="Master/audio_in 1"/>
         </Port>
         <Port name="drums 5/audio_out 2" type="audio" direction="Output">
-          <Connection other="Master/audio_in 2"/>
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
@@ -2511,10 +2488,8 @@ I also liked analog brass 2 in the brass bank</Comment>
       <IO name="drums 6" id="35935" direction="Output" default-type="audio">
         <Port name="drums 6/audio_out 1" type="audio" direction="Output">
           <Connection other="Master/audio_in 1"/>
-          <Connection other="Master/audio_in 1"/>
         </Port>
         <Port name="drums 6/audio_out 2" type="audio" direction="Output">
-          <Connection other="Master/audio_in 2"/>
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
@@ -7702,7 +7677,7 @@ a409600 1
       <Automation>
         <AutomationList automation-id="gain" id="59" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
       </Automation>
-      <Controllable name="gaincontrol" id="60" flags="GainLike" value="0.29161864519119263"/>
+      <Controllable name="gaincontrol" id="60" flags="GainLike" value="0.2599053680896759"/>
     </Processor>
   </Click>
   <Speakers>
@@ -7796,7 +7771,7 @@ a409600 1
       <Window name="big-transport" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="virtual-keyboard" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="library-downloader" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-connection-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-connection-manager" visible="0" x-off="128" y-off="31" x-size="819" y-size="864"/>
       <Window name="midi-connection-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="luawindow" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="idle-o-meter" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -7808,6 +7783,12 @@ a409600 1
       <Window name="RPM-64" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-12678" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-185" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-35549" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-35617" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-35685" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-35753" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-35821" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-35889" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-12353" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-467" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-25138" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -7838,12 +7819,6 @@ a409600 1
       <Window name="PM-4752-5114" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-4803-12794" visible="0" x-off="396" y-off="44" x-size="818" y-size="386" custom-ui="1"/>
       <Window name="PM-4803-12794" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-35549" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-35617" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-35685" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-35753" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-35821" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-35889" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 64" height="66" visible="1"/>
         <Object id="automation 68" height="66" visible="0"/>
